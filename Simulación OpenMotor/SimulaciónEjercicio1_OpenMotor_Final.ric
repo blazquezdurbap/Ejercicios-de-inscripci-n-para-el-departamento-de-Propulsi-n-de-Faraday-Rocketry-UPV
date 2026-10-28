@@ -1,0 +1,72 @@
+data:
+  config:
+    ambPressure: 79499.35
+    burnoutThrustThres: 0.1
+    burnoutWebThres: 2.54001e-05
+    flowSeparationWarnPercent: 0.05
+    mapDim: 750
+    maxMachNumber: 0.7
+    maxMassFlux: 1406.4697609001405
+    maxPressure: 5998650.000000001
+    minPortThroat: 2.0
+    sepPressureRatio: 0.4
+    timestep: 0.03
+  grains:
+  - properties:
+      diameter: 0.14
+      inhibitedEnds: Both
+      length: 0.12400000000000001
+      numPoints: 6
+      pointLength: 0.034
+      pointWidth: 0.12
+    type: Star Grain
+  - properties:
+      diameter: 0.14
+      inhibitedEnds: Both
+      length: 0.12400000000000001
+      numPoints: 6
+      pointLength: 0.034
+      pointWidth: 0.12
+    type: Star Grain
+  - properties:
+      diameter: 0.14
+      inhibitedEnds: Both
+      length: 0.12400000000000001
+      numPoints: 6
+      pointLength: 0.034
+      pointWidth: 0.12
+    type: Star Grain
+  - properties:
+      diameter: 0.14
+      inhibitedEnds: Both
+      length: 0.12400000000000001
+      numPoints: 6
+      pointLength: 0.034
+      pointWidth: 0.12
+    type: Star Grain
+  nozzle:
+    convAngle: 25.0
+    divAngle: 15.0
+    efficiency: 0.9
+    erosionCoeff: 0.0
+    exit: 0.1182
+    slagCoeff: 0.0
+    throat: 0.0425
+    throatLength: 0.0
+  propellant:
+    density: 1860.0
+    name: APCP Sutton
+    tabs:
+    - a: 2.5911283220662864e-05
+      k: 1.2
+      m: 26.0
+      maxPressure: 13790000.000000002
+      minPressure: 0.0
+      n: 0.4
+      t: 3440.0
+type: !!python/object/apply:uilib.fileIO.fileTypes
+- 3
+version: !!python/tuple
+- 0
+- 6
+- 2
